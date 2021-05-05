@@ -13,8 +13,9 @@ function throws(dogName, dogBreed){
 function walkHome(dogName, dogBreed){
   console.log(`Walk home with ${dogName} the ${dogBreed}`);
 }
+
 function unleash(dogName, dogBreed){
   console.log(`Unleash ${dogName} the ${dogBreed}`);
 }
 
-const functionArray = [wake(), leash(), ]
+const routine = [wake(dogName, dogBreed), leash(dogName, dogBreed), walkPark(dogName, dogBreed), throws(dogName, dogBreed), walkHome(dogName, dogBreed), unleash(dogName, dogBreed)];
