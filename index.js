@@ -17,7 +17,4 @@ function unleash(){
   console.log("Wake Byron the poodle");
 }
 
-const functionArray = [
-  wake(),
-  
-  ]
+const functionArray = [wake(), leash(), ]
