@@ -14,7 +14,7 @@ function walkHome(dogName, dogBreed){
   console.log(`Walk home with ${dogName} the ${dogBreed}`);
 }
 function unleash(dogName, dogBreed){
-  console.log(`Wake ${dogName} the ${dogBreed}`);
+  console.log(`Unleash ${dogName} the ${dogBreed}`);
 }
 
 const functionArray = [wake(), leash(), ]
