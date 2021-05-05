@@ -19,3 +19,9 @@ function unleash(dogName, dogBreed){
 }
 
 const routine = [wake(dogName, dogBreed), leash(dogName, dogBreed), walkPark(dogName, dogBreed), throws(dogName, dogBreed), walkHome(dogName, dogBreed), unleash(dogName, dogBreed)];
+
+function exerciseDog(dogName, dogBreed){
+  for(let i=0; i<routine.length){
+    routine[i];
+  }
+}
